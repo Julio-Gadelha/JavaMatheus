@@ -1,6 +1,6 @@
-package Exercicio.TestEmpresa;
+package Heranca.Exercicio.TestEmpresa;
 
-import Exercicio.Gerente;
+import Heranca.Exercicio.Gerente;
 
 public class TestEmpresa {
     public static void main(String[] args) {

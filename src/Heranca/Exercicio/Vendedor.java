@@ -1,4 +1,4 @@
-package Exercicio;
+package Heranca.Exercicio;
 
 public class Vendedor  extends Funcionario{
     public Vendedor(String nome, int codigo) {

@@ -1,4 +1,4 @@
-package Exercicio;
+package Heranca.Exercicio;
 
 public class Pessoa {
     private String nome;
