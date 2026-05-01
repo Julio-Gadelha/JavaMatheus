@@ -9,14 +9,6 @@ public class Gerente extends Funcionario {
         this.departamento = departamento;
     }
 
-    public String getDepartamento() {
-        return departamento;
-    }
-
-    public void setDepartamento(String departamento) {
-        this.departamento = departamento;
-    }
-
     @Override
     public double calcularBonus() {
         return getSalario() * 0.20;

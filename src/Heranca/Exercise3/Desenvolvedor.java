@@ -9,14 +9,6 @@ public class Desenvolvedor extends Funcionario {
         this.linguagem = linguagem;
     }
 
-    public String getLinguagem() {
-        return linguagem;
-    }
-
-    public void setLinguagem(String linguagem) {
-        this.linguagem = linguagem;
-    }
-
     @Override
     public double calcularBonus() {
         return getSalario() * 0.15;

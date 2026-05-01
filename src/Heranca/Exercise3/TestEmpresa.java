@@ -9,9 +9,11 @@ public class TestEmpresa {
         System.out.println("=== GERENTE ===");
         gerente.exibirDados();
         System.out.println("Bônus: " + gerente.calcularBonus());
+        System.out.println("Salário com bônus: " + gerente.calcularSalarioComBonus());
 
         System.out.println("\n=== DESENVOLVEDOR ===");
         dev.exibirDados();
         System.out.println("Bônus: " + dev.calcularBonus());
+        System.out.println("Salário com bônus: " + dev.calcularSalarioComBonus());
     }
 }
