@@ -26,12 +26,12 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    // Bônus padrão (10%)
+
     public double calcularBonus() {
         return getSalario() * 0.10;
     }
 
-    // 🔥 Salário + bônus
+
     public double calcularSalarioComBonus() {
         return getSalario() + calcularBonus();
     }

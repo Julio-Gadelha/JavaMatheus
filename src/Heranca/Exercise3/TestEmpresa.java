@@ -6,12 +6,12 @@ public class TestEmpresa {
         Gerente gerente = new Gerente("Carlos", 5000, "TI");
         Desenvolvedor dev = new Desenvolvedor("Ana", 4000, "Java");
 
-        System.out.println("=== GERENTE ===");
+        System.out.println("GERENTE ");
         gerente.exibirDados();
         System.out.println("Bônus: " + gerente.calcularBonus());
         System.out.println("Salário com bônus: " + gerente.calcularSalarioComBonus());
 
-        System.out.println("\n=== DESENVOLVEDOR ===");
+        System.out.println("\nDESENVOLVEDOR ");
         dev.exibirDados();
         System.out.println("Bônus: " + dev.calcularBonus());
         System.out.println("Salário com bônus: " + dev.calcularSalarioComBonus());
